@@ -3,12 +3,16 @@ import me from "../assets/me.jpg";
 import story from "../assets/story.png";
 import Footer from "../components/Footer";
 import {aboutMe,skills,hobbies} from "../constants/texts";
+import { useEffect } from "react";
 
 
 const icon = <img src={story} style={{ width: "16px", height: "16px" }} />;
 
 
 function Home() {
+  useEffect(()=>{
+    document.title = "Mohamed Ashraf"
+  },[]);
   return (
     <>
       <AppBar />

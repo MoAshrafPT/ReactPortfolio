@@ -5,8 +5,12 @@ import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
+import { useEffect } from "react";
 
 export default function Contact() {
+  useEffect(()=>{
+    document.title = "Contact me"
+  },[]);
   return (
     <>
       <AppBar />

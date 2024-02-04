@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import axios from "axios"
 import parse from "html-react-parser";
 
+
 function Posts() {
   const [posts, setPosts] = useState("");
   useEffect( () =>{
@@ -11,6 +12,7 @@ function Posts() {
         console.log(res.data);
         setPosts(res.data);
     }).catch(err => console.log(err))
+    document.title = "Posts"
   },[]
   );
   return (
