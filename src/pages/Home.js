@@ -28,7 +28,7 @@ function Home() {
               style={{ width: "200px", height: "200px", borderRadius: "50%" }}
             />
           </div>
-          <h3>"The journey starts somewhere with a first step"</h3>
+          <h3 className="quote">"The journey starts somewhere with a first step"</h3>
         </section>
         <section
           style={{
@@ -55,7 +55,7 @@ function Home() {
           <h3>Hobbies</h3>
           <div className="skill-container">
             <p>
-              <ul className="skills">
+              <ul className="hobbies">
                 {hobbies.map((hobby,i) => (<li>{icon} {hobby}</li>))}
               </ul>
             </p>

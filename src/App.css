@@ -74,7 +74,7 @@ nav {
 
 .title {
   margin: 10px;
-  margin-top: 20px;
+  margin-top: 17px;
   animation-duration: 0.9s;
   animation-name: animate-fade-right;
   animation-delay: 0.3s;
@@ -168,16 +168,16 @@ p {
 }
 
 .skills {
-  height: min-content;
   columns: 3;
-}
-ul {
   list-style: none;
-  height: 200px;
+  padding: 0;
 }
+
 li {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+  
 }
 .navbar {
   position: fixed;
@@ -214,6 +214,7 @@ p {
 }
 .card:hover{
   background-color: #ea4c89;
+  color: white;
 }
 .cards-container{
   display: flex;
@@ -246,6 +247,7 @@ p {
   margin-bottom: 50px;
 }
 
+
 .footerList{
   margin-top: 20px;
   height: 100px;
@@ -262,6 +264,12 @@ p {
   animation-name: animate-fade-right;
   animation-delay: 0s;
 
+}
+
+.hobbies{
+  columns: 2;
+  list-style: none;
+  padding: 0%;
 }
 
 hr{
@@ -303,5 +311,26 @@ hr{
   h3{
     margin-top: 120px  !important;
   }
-  
+
+  h2{
+    font-size: 20px;
+  }
+
+  h3{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skills{
+    columns: 2;
+  }
+  .skill-container{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  li{
+    font-size: 13px;
+  }
 }

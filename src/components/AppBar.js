@@ -6,7 +6,7 @@ function AppBar() {
         <nav>
           <div className="title-container">
             <Link to="/">
-              <h2 className="title hover-underline-animation">Mo Ashraf</h2>{" "}
+              <h2 className="title hover-underline-animation">Mo Ashraf</h2>
             </Link>
           </div>
           <div className="nav-actions">
