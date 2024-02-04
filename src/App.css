@@ -332,6 +332,10 @@ hr{
     margin-bottom: 20px;
   }
   li{
-    font-size: 13px;
+    font-size: 10px;
+  }
+  .nav-action{
+    margin-left: 10px;
+    margin-left: 10px;
   }
 }
